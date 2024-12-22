@@ -1,0 +1,17 @@
+
+  /app                 # App Router 
+    /api               # API routes
+    /auth              # Authentication-related pages
+    /onboarding        # Onboarding flow
+    /splash            # Splash page
+    /(main)            # Main app layout (e.g., home, messages, calls, etc.)
+      /messages        # Messages page
+      /calls           # Calls page
+      /contacts        # Contacts page
+      /settings        # Settings page
+  /components          # Reusable UI components
+  /hooks               # Custom React hooks
+  /context             # Context API for state management
+  /styles              # Global styles
+  /public              # Static assets (images, etc.)
+  /utils               # Utility functions
